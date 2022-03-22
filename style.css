@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: black;
+
+}
+
+header {
+    padding: 8px 2%;
+    background-color: #333;
+    text-align: center;
+}
+
+.rodape-menu a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;  
+}
+
+.cabecalho-menu {
+    height: 72px;
+}
+
+.cabecalho-menu-item {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: #936b09;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid gray;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    column-gap: 32px;
+    color: white;
+}
+
+section.conteudo-principal-escrito-imagem img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    display: inline-block;
+    max-width: 700px;
+    width: 100%;
+       
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #a77f1c;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba (0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #936b09;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 00.4px solid white;
+}
+
+.rodape-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    height: 72px;
+}
+
+.rodape-menu-item {
+    color:white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.rodape-menu-item:hover {
+    background-color: #936b09;
+}
