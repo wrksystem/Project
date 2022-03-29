@@ -34,7 +34,10 @@
 
             <div class="campo">
                 <label for="cpf"><strong>CPF</strong></label>
-                <input type="number" name="cpf" id="cpf" required>
+                <input type="text" name="cpf" id="cpf"
+                        pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                        title="Digite um cpf no formato: xxx.xxx.xxx-xx">
+                <input type="submit" value="verificar">
             </div>
             
         </fieldset>
