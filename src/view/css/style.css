@@ -36,6 +36,7 @@ header {
     font-weight: 400;
     font-size: 18px;
     transition: all 0.3s ease;
+    margin: 5vh;
 }
 
 .cabecalho-menu-item:hover {
